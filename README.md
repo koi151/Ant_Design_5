@@ -1,4 +1,4 @@
-# Must set connection to database.json first 
+# You should set connection to database.json first before working with web
 
 # Getting Started with Create React App
 
