@@ -1,0 +1,159 @@
+{
+  "utilsRoom": [
+    {
+      "label": "Free Wifi",
+      "value": "Free Wifi"
+    },
+    {
+      "label": "Near beach",
+      "value": "Near beach"
+    },
+    {
+      "label": "Restaurant",
+      "value": "Restaurant"
+    },
+    {
+      "label": "Room Service",
+      "value": "Room Service"
+    },
+    {
+      "label": "Disabled Comfort",
+      "value": "Disabled Comfort"
+    },
+    {
+      "label": "Family Room",
+      "value": "Family Room"
+    },
+    {
+      "label": "Bar Lounge",
+      "value": "Bar Lounge"
+    }
+  ],
+  "rooms": [
+    {
+      "roomName": "Room C",
+      "roomQuantity": 4,
+      "numberOfPeople": 15,
+      "notes": "Sample Notes 3",
+      "utils": [
+        "Disabled Comfort",
+        "Near beach",
+        "Restaurant"
+      ],
+      "id": 3,
+      "status": true,
+      "VIPRoom": false
+    },
+    {
+      "roomName": "Room D",
+      "roomQuantity": 4,
+      "numberOfPeople": 17,
+      "notes": "Sample Notes 4",
+      "utils": [
+        "Family Room",
+        "Restaurant",
+        "Disabled Comfort",
+        "Near beach",
+        "Free Wifi"
+      ],
+      "VIPRoom": true,
+      "id": 4,
+      "status": true
+    },
+    {
+      "roomName": "Room AGV",
+      "roomQuantity": 2,
+      "numberOfPeople": 4,
+      "notes": "Sample Notes",
+      "utils": [
+        "Family Room",
+        "Room Service"
+      ],
+      "status": false,
+      "id": 5
+    },
+    {
+      "roomName": "Room SDV",
+      "roomQuantity": 1,
+      "numberOfPeople": 2,
+      "notes": "",
+      "utils": [
+        "Bar Lounge",
+        "Room Service",
+        "Restaurant"
+      ],
+      "status": false,
+      "VIPRoom": true,
+      "id": 6
+    },
+    {
+      "roomName": "Room DSH",
+      "roomQuantity": 2,
+      "numberOfPeople": 3,
+      "notes": "Sample note",
+      "utils": [
+        "Disabled Comfort",
+        "Room Service",
+        "Bar Lounge"
+      ],
+      "id": 7,
+      "status": true
+    },
+    {
+      "roomName": "Room A",
+      "roomQuantity": 2,
+      "numberOfPeople": 5,
+      "notes": "Sample Notes 1",
+      "utils": [
+        "Disabled Comfort",
+        "Near beach",
+        "Restaurant",
+        "Family Room"
+      ],
+      "status": true,
+      "VIPRoom": true,
+      "id": 8
+    },
+    {
+      "roomName": "Room A",
+      "roomQuantity": 2,
+      "numberOfPeople": 7,
+      "notes": "Sample Notes 1",
+      "utils": [
+        "Disabled Comfort",
+        "Near beach",
+        "Restaurant",
+        "Family Room"
+      ],
+      "VIPRoom": true,
+      "id": 9
+    },
+    {
+      "roomName": "Room RR",
+      "roomQuantity": 2,
+      "numberOfPeople": 4,
+      "utils": [
+        "Disabled Comfort",
+        "Restaurant",
+        "Bar Lounge"
+      ],
+      "status": true,
+      "VIPRoom": true,
+      "id": 10
+    },
+    {
+      "roomName": "HANGOO",
+      "roomQuantity": 2,
+      "numberOfPeople": 7,
+      "notes": "NOTES",
+      "utils": [
+        "Room Service",
+        "Disabled Comfort",
+        "Near beach"
+      ],
+      "status": true,
+      "VIPRoom": false,
+      "id": 11
+    }
+  ]
+}

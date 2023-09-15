@@ -1,0 +1,18 @@
+@import '../../../assets/base.scss';
+
+.create-room-wrapper {
+    .create-room-title {
+        margin-bottom: 1rem;
+    }
+}
+
+.row-test {
+    .col-test
+    {
+        &__form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

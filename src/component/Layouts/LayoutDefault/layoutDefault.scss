@@ -1,0 +1,73 @@
+@import '../../../assets/base.scss';
+
+$header-height: 70px;
+
+.layout {
+    &__header {
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        height: $header-height;
+        width: 100%;
+    }
+    
+    &__logo {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        border-right: 1px solid #ddd;   
+        transition: all .2s;
+
+        img {
+        }
+
+        &--fold {
+            width: 80px;
+        }
+    }
+
+    &__nav {
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+
+        .nav-left {
+            &__icon-collapse, &__icon-search {
+                font-size: 1.1rem;
+                margin-right: 1.5rem;
+                color: #555;
+                cursor: pointer;
+            }
+        }
+
+        .nav-right {
+            &__icon-notify {
+
+            }
+        }
+    }    
+
+    &__sider {
+        position: fixed !important;
+        top: $header-height;
+        height: calc(100% - $header-height);
+        margin-right: 1px solid #ddd;
+    }
+
+    &__content {
+        margin-top: $header-height;
+        padding: 25px;
+        margin-left: 200px;
+        transition: all .2s;
+
+        &--full {
+            margin-left: 80px;
+        }
+    }
+
+}
