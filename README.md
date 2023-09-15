@@ -1,3 +1,5 @@
+# Must set connection to database.json first 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
